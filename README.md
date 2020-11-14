@@ -7,7 +7,7 @@ This project is slightly different than others you have encountered thus far on 
 In this project, you’ll write JavaScript functions to power a small guessing game. Your code will run in the browser instead of just the terminal, but you have an output section to help you test your functions and show you if you have syntax errors.
 
 ## Game.js
-``
+```
 let target;
 
 const humanGuessInput = document.getElementById('human-guess');
@@ -178,4 +178,3 @@ humanGuessInput.addEventListener('input', function(e) {
     <script src="./game.js"></script>
   </body>
 </html>
-```
